@@ -135,6 +135,7 @@ int main(){
             scanf("%d %d %d",&r,&c,&v);
             update(r-1,c-1,v);
         }
+		printf("\nDo you have fun?yes or no")
         printf("\nDo you wish to play again? Enter 1(yes) or 0(no): ");
         scanf("%d",&opt);
         if(opt==0){
